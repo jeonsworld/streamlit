@@ -246,7 +246,7 @@ def add_script_run_ctx(
     return thread
 
 
-def get_script_run_ctx(suppress_warning: bool = False) -> ScriptRunContext | None:
+def get_script_run_ctx(suppress_warning: bool = True) -> ScriptRunContext | None:
     """
     Parameters
     ----------
